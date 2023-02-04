@@ -3,9 +3,9 @@ body {
 }
 
 .calculator {
-  width: 400px;
+  max-width: 30%;
   height: 600px;
-  margin: 50px auto;
+  margin: 0px auto;
   background: linear-gradient(to bottom, #00b2b2, #9900cc);
   border-radius: 10px;
   box-shadow: 0px 0px 20px #000;
@@ -44,4 +44,10 @@ button:hover {
 
 .row {
   clear: both;
+}
+
+media only screen and (max-width: 400px) {
+  .calculator {
+    width: 90%;
+  }
 }

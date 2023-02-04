@@ -46,8 +46,8 @@ button:hover {
   clear: both;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
   .calculator {
-    width: 90%;
+    width: 30%;
   }
 }
